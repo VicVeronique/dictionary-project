@@ -14,6 +14,7 @@ export default function Results(props) {
             </div>
           );
         })}
+        <br />
         {props.results.meanings.map(function (meaning, index) {
           return (
             <div key={index}>
