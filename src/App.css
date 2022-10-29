@@ -1,6 +1,10 @@
 .App-header {
   margin: 50px auto;
   text-align: center;
+  font-weight: bolder;
+  font-size: 45px;
+  text-shadow: 5px 10px 10px rgba(0, 0, 0, 0.05);
+  color: white;
 }
 
 body {
@@ -10,4 +14,8 @@ body {
 .App-footer {
   text-align: center;
   margin: 30px 0;
+}
+
+a {
+  color: blueviolet;
 }
